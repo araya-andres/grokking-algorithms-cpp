@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.5.0)
-project(app VERSION 0.1.0)
+cmake_minimum_required(VERSION 3.28)
+project(grokking VERSION 0.1.0)
+
+find_package(GTest CONFIG REQUIRED)
 
 add_executable(01-binary-search src/01-binary-search/main.cpp)
 add_executable(04-quicksort src/04-quicksort/main.cpp)
