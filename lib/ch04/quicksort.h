@@ -30,16 +30,3 @@ void quick_sort(std::vector<T> &v)
 {
     quick_sort(v.data(), v.size());
 }
-
-int main(int argc, char *argv[])
-{
-    std::vector<int> v{3, 4, 2, 8, 5, 6, 1, 7, 9};
-    quick_sort(v);
-    for (int i = 0; i < v.size(); i++)
-    {
-        if (i > 0)
-            putchar(',');
-        printf("%d", v[i]);
-    }
-    putchar('\n');
-}
