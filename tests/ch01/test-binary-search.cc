@@ -1,12 +1,9 @@
-#include <gtest/gtest.h>
 #include "ch01/binary-search.h"
+#include <gtest/gtest.h>
 
 static std::vector<int> v{1, 2, 3, 4, 5, 6, 7};
 
-TEST(grokking_lib, binary_search)
-{
-    EXPECT_EQ(binary_search(v, 4), 3);
-}
+TEST(grokking_lib, binary_search) { EXPECT_EQ(binary_search(v, 4), 3); }
 
 TEST(grokking_lib, binary_search_find_first_element)
 {

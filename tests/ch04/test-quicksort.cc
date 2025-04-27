@@ -1,6 +1,6 @@
+#include "ch04/quicksort.h"
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
-#include "ch04/quicksort.h"
 
 TEST(grokking_lib, binary_quicksort)
 {
