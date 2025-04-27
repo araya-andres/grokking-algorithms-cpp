@@ -15,5 +15,5 @@ TEST(grokking_lib, bfs)
     auto cond = [](const node& n) { return n.at(n.size() - 1) == 'm'; };
     auto rv = bfs(g, "you", cond);
     ASSERT_TRUE(rv.has_value());
-    ASSERT_EQ(*rv, "bob");
+    ASSERT_EQ(*rv, "tom");
 }
