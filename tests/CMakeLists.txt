@@ -3,6 +3,7 @@ find_package(GTest CONFIG REQUIRED)
 add_executable(
     grokking-tests
     ch01/test-binary-search.cc
+    ch01/test-selection-sort.cc
     ch04/test-quicksort.cc
     ch06/test-bfs.cc
 )
