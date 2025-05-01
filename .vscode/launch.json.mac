@@ -7,7 +7,7 @@
             "name": "Debug",
             "program": "${workspaceFolder}/out/build/default/tests/grokking-tests",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "CMake: build"
